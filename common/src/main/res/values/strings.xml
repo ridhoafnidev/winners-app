@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="img_desc_icon_back">Icon Back</string>
+    <string name="something_error_title">Ups, something error</string>
+    <string name="try_again">Try Again</string>
+    <string name="empty_data">Ups, data not found</string>
+</resources>

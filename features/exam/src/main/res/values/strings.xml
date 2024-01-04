@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ujian">Ujian</string>
+    <string name="format_question_number">NOMOR %1$s</string>
+    <string name="title_dialog_finish_exam">Apakah anda ingin menyelesaikan ujian?</string>
+    <string name="desc_dialog_finish_exam">Ketika anda menyelesaikan ujian, anda tidak dapat melakukan ujian kembali. Pasti anda benar-benar telah menjawab soal-soal dengan benar!</string>
+</resources>

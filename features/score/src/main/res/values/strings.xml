@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mata_pelajaran">Mata Pelajaran</string>
+    <string name="mata_pelajaran_name">Nama Mata Pelajaran</string>
+    <string name="label_nilai">Nilai</string>
+    <string name="tugas">Tugas</string>
+    <string name="ulangan_harian">Ulangan</string>
+    <string name="uas">UAS</string>
+    <string name="uts">UTS</string>
+    <string name="text_filter_class_school_year"><![CDATA[Kelas & Semester & Tahun Ajaran]]></string>
+</resources>
