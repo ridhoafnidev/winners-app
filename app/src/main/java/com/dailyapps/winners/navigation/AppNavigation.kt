@@ -52,7 +52,7 @@ fun AppNavigation() {
     isLoggedIn?.let { loggedIn ->
         AnimatedNavHost(
             navController = navController,
-            startDestination = if (loggedIn) NavRoute.homeScreen else NavRoute.loginScreen
+            startDestination = if (loggedIn) NavRoute.homeScreen else NavRoute.homeScreen
         ) {
             composableWithSlideAnimation(
                 route = NavRoute.loginScreen

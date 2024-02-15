@@ -5,10 +5,11 @@ import com.dailyapps.entity.Menu
 
 object DummyDatasource {
     fun generateMenus() = arrayListOf<Menu>(
-        Menu("Absensi", R.drawable.ic_absen),
-        Menu("Catatanku", R.drawable.ic_note),
-        Menu("Nilai", R.drawable.ic_nilai),
-        Menu("Ujian", R.drawable.ic_ujian),
+        Menu("Observation", R.drawable.ic_absen),
+        Menu("Report", R.drawable.ic_note),
+        Menu("Memos", R.drawable.ic_nilai),
+        Menu("Planned Activities", R.drawable.ic_ujian),
+        Menu("Self Reflection", R.drawable.ic_ujian),
     )
 
 //    fun generateAbsents() = listOf<Absent>(

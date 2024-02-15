@@ -87,7 +87,7 @@ class HomeViewModel @Inject constructor(
 
     internal fun getStudent() {
         viewModelScope.launch {
-            _student.value = masterUseCase.getStudentClass().data
+            //_student.value = masterUseCase.getStudentClass().data
         }
     }
 

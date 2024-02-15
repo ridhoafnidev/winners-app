@@ -39,7 +39,7 @@ import com.dailyapps.common.fontLight
 @Composable
 fun BaseTextField(
     modifier: Modifier = Modifier,
-    title: String="",
+    title: String = "",
     value: String = "",
     keyboardType: KeyboardType = KeyboardType.Text,
     placeholder: String="",

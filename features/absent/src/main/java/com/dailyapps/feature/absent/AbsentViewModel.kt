@@ -85,7 +85,7 @@ class AbsentViewModel @Inject constructor(
 
     private fun getStudentClass() {
         viewModelScope.launch {
-            _currentClass.value = masterUseCase.getStudentClass().data
+            //_currentClass.value = masterUseCase.getStudentClass().data
         }
     }
 

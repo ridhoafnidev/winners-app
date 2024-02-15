@@ -15,7 +15,7 @@ val Pink40 = Color(0xFF7D5260)
 
 val Gray = Color(0xFF2b2b2b)
 val Placeholder = Color(0xFFCECECE)
-val Primary = Color(0xFFA939D9)
+val Primary = Color(0xFF347AB6)
 val Active = Color(0xFF0AA576)
 val Finish = Color(0xFF6D6D6D)
 val Primary80 = Color(0xB1C155EF)

@@ -113,25 +113,31 @@ fun ListHomeMenu(selected: String, navController: NavHostController) {
                 selected = selected == menu.title,
                 onItemClick = { _menu ->
                     when (_menu.title) {
-                        "Absensi" -> {
+                        "Observation" -> {
                             Handler(Looper.getMainLooper()).postDelayed({
                                 navController.navigate(NavRoute.absentScreen)
                             }, 200)
                         }
 
-                        "Catatanku" -> {
+                        "Reports" -> {
                             Handler(Looper.getMainLooper()).postDelayed({
                                 navController.navigate(NavRoute.noteScreen)
                             }, 200)
                         }
 
-                        "Nilai" -> {
+                        "Memos" -> {
                             Handler(Looper.getMainLooper()).postDelayed({
                                 navController.navigate(NavRoute.scoreScreen)
                             }, 200)
                         }
 
-                        "Ujian" -> {
+                        "Planned Activities" -> {
+                            Handler(Looper.getMainLooper()).postDelayed({
+                                navController.navigate(NavRoute.listExamScreen)
+                            }, 200)
+                        }
+
+                        "Self Reflection" -> {
                             Handler(Looper.getMainLooper()).postDelayed({
                                 navController.navigate(NavRoute.listExamScreen)
                             }, 200)

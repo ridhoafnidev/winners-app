@@ -69,7 +69,7 @@ class NoteViewModel @Inject constructor(
 
     private fun getMasterCurrentStudent() {
         viewModelScope.launch {
-            _currentStudentId.value = masterUseCase.getStudentClass().data.id ?: 0
+            //_currentStudentId.value = masterUseCase.getStudentClass().data.id ?: 0
         }
 
     }
